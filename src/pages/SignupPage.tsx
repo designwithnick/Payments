@@ -63,7 +63,7 @@ const SignupPage: React.FC = () => {
 
       if (leadsError) throw leadsError;
       // setTimeout(() => setShowDialog(false), 3000);
-      window.location.href = "https://www.paypal.com/ncp/payment/HHF3RGDSFQVUW";
+      window.location.href = "https://www.paypal.com/ncp/payment/BJZGJ7K3VYRJL";
     } catch (err: any) {
       setError(err.message || "Something went wrong. Try again.");
     } finally {
