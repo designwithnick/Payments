@@ -57,13 +57,13 @@ const SignupPage: React.FC = () => {
             email: form.email,
             phone: form.phone,
             country_code: form.countryCode,
-            promo_code: "Main Site",
+            promo_code: "puppy",
           }
         ]);
 
       if (leadsError) throw leadsError;
       // setTimeout(() => setShowDialog(false), 3000);
-      window.location.href = "https://www.paypal.com/ncp/payment/BJZGJ7K3VYRJL";
+      window.location.href = "https://www.paypal.com/ncp/payment/YVFSZZG26324U";
     } catch (err: any) {
       setError(err.message || "Something went wrong. Try again.");
     } finally {
